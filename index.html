@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petz Community Archive</title>
+    <link rel="stylesheet" href="style.css">
+       
+</head>
+
+
+<body id="body">
+    <div class="wrapper">
+        
+    <header>
+        <h1>Petz Community Archive</h1>
+        <nav>
+            <a><img src="img/about.png" alt="About"></a>
+            <a href="index.html"><img src="img/archive.png" alt="Archive"></a>
+            <a><img src="img/links.png" alt="Links"></a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <aside id="filter-box">
+            <div>File Type:</div>
+            <div id="filetype-filters">  
+            </div>
+            <div>Game:</div>
+            <div id="game-filters">  
+            </div>
+            <div>Creator:</div>
+            <div id="creator-filters"> 
+            </div>
+        </aside>
+        <main class="card-box" id="card-box">
+            <a class="content-card" href="petpage.html?id=0">
+                <img src="HouseCat.png">
+                <div>Title by Unknown</div>
+            </a>
+        </main>
+    </div>
+
+    </div>
+
+    <script src="data.js"></script>
+    <script  type="module" src="script.js"></script>
+</body>
+</html>

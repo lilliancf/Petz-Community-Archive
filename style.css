@@ -1,0 +1,156 @@
+body {
+    background-color: grey;
+    background-image: url("img/Paw Print.bmp");
+    font-family:"Comic Sans MS", "Comic Sans", cursive;
+
+    line-height: 130%;
+}
+
+.wrapper {
+    display:flex;
+    max-width:1200px;
+    border: 4px ridge black;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    background-color: #5196DC;
+    background-image: url("img/Clouds.BMP");
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 4px ridge black;
+}
+
+
+nav {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.content {
+    display:flex;
+}
+
+#filter-box {
+    padding: 5px;
+    min-width:180px;
+    background-color: #DEC694;
+    border-right: 4px ridge black;
+}
+
+.card-box {
+    width:100%;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    background-color: #8098B0;
+    background-image: url("img/Blue Carpet.bmp");
+}
+
+.content-card {
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: gray;
+    border:4px ridge black;
+    margin: 8px 5px;
+    width: 230px;
+    height: 260px;
+    overflow: hidden;
+    position: static;
+}
+
+.content-card a {
+    color: black;
+    text-decoration: none;
+}
+
+.creator-link:link, .link:link {
+    color: #0000EE;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .creator-link:hover, .link:hover {
+    color: cyan;
+}
+  
+  .creator-link:visited, .link:visited {
+    color: #551A8B;
+  }
+
+  .creator-link:visited:hover, .link:hover:visited:hover {
+    color: magenta;
+}
+
+
+.content-card img {
+    display: block;
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+
+.content-card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transform: translateY(-2px)
+}
+
+nav a:hover {
+    transform: translateY(-2px)
+}
+
+
+
+.border {
+    border: 1px rgb(255, 0, 200) solid;
+}
+
+
+
+.center-column {
+    max-width: 900px;
+    background-color: lightgrey;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-left:4px ridge black;
+    border-right:4px ridge black;
+}
+
+.filetype-hide, .game-hide, .creator-hide {
+    display: none;
+}
+
+.link-box {
+    max-width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link-box a {
+
+    display: block;
+    padding:20px;
+
+}
+
+.content-card.catz {
+    //background-image: url('img/catz.png');
+}
+
+.content-card.dogz {
+    //background-image: url('img/dogz.png');
+}
